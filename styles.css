@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+
+}
+div{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: auto;
+    margin-top :3%;
+    padding: 45px; 
+    display:flex;
+    justify-content:center;
+    position: relative;
+    align-items: center;
+
+}
+
+h3{
+    margin-top: 10%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+
+}
+
+
+button {
+    background-color: white;  
+    color: black;              
+    border: 2px solid black;   
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 7%; 
+    position: relative;
+    border-radius: 7px;
+    
+  }
+  
+  button:active {
+    background-color: black;   
+    color: white;              
+  }
+
